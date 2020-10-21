@@ -1,0 +1,40 @@
+"D:\other\logs\commands.txt"
+all commands:
+
+"command?": this command lists out all the command in the command prompt
+"play": this commands allows you to play
+"clear": this command cleares the screen
+
+all the commands about events
+"events/<player>":this command lists out all the events of a player
+"events/<player>/number":this command lists out n number of events of a player based on the number entered
+
+all the commands about the history of gameplay
+"playhistory/all/<number>":this command lists out n number of play history
+"playhistory/all":this command lists out the history of gameplay
+"playhistory/one":this command lists out the history one player gameplay
+"playhistory/two":this command lists out the history of two player gameplay
+
+commands about players and some details
+"players/new":this command let's you create a new player
+"players/listout":this command lists out all the players
+"players/length":this command lists out the number of players
+"players/details":this command lists out all the players and their details
+"players/<player>":this command lists out the details of one player
+
+game records
+"players/highest":this command lists out the lowest score of all players
+"players/lowest":this command lists out the highest score of all players
+
+player statistics
+"players/<player>/delete":this command delete all the data stored about the player(this includes records and metadata)
+"players/<player>/created":this command lists out the date and time this player was created
+"players/<player>/level":this command lists out the level of a player
+"players/<player>/totalxp":this command lists out the total xp earned by the player
+"players/<player>/highest":this command lists out the highest score of the player
+"players/<player>/lowest":this command lists out the lowest score of the player
+"players/<player>/average":this command lists out the average score of the player
+"players/<player>/numberofgamesplayed":this command lists out the number of games the player has played
+"players/<player>/lastplayed":this command lists out the date and time of the last time the player played
+"players/<player>/rename":this command lets you rename a player to a different name
+"players/<player>/changepassword"this command lets you change the password of the user
